@@ -54,7 +54,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Meta Project',
+        title: 'Saldi',
         logo: {
           alt: 'My Meta Project Logo',
           src: 'img/logo.svg',
@@ -64,12 +64,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/saldimx/saldi_documentacion',
             label: 'GitHub',
             position: 'right',
           },
