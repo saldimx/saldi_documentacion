@@ -64,12 +64,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Tutorial',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/saldimx/saldi_documentacion',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -83,11 +83,11 @@ const config = {
             items: [
               {
                 label: 'Style Guide',
-                to: 'docs/',
+                to: 'https://saldi.mx',
               },
               {
                 label: 'Second Doc',
-                to: 'docs/doc2',
+                to: 'https://saldi.mx',
               },
             ],
           },
@@ -117,7 +117,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/saldimx/saldi_documentacion',
               },
             ],
           },

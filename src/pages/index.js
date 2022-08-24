@@ -80,7 +80,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('https://saldi.mx/')}>
               Get Started
             </Link>
           </div>
