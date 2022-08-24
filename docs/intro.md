@@ -18,7 +18,7 @@ Lo primero que necestas hacer es **creat tu cuenta**.
 
 ## Genera tu tienda
 
-Generate a new Docusaurus site using the **classic template**.
+Ya puedes iniciar sesion y generar **tu tienda**.
 
 The classic template will automatically be added to your project after you run the command:
 
