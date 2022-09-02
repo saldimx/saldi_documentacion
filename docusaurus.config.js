@@ -11,13 +11,14 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Saldi Docs.',
+  tagline: 'Ayuda para comenzar a crear tu tienda en linea facil y rapido.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',
+  favicon: 'img/circled-s.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -54,10 +55,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Saldi',
+        //title: 'Saldi',
         logo: {
-          alt: 'My Meta Project Logo',
-          src: 'img/logo.svg',
+          alt: 'www.saldi.mx',
+          src: 'img/logo.jpg',
         },
         items: [
           {
@@ -68,91 +69,83 @@ const config = {
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          //{
+          //  href: 'https://github.com/facebook/docusaurus',
+          //  label: 'GitHub',
+          //  position: 'right',
+          //},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'Productos',
             items: [
               {
-                label: 'Style Guide',
+                label: 'Saldi Shop',
                 to: 'https://saldi.mx',
               },
               {
-                label: 'Second Doc',
-                to: 'https://saldi.mx',
+                label: 'Saldi Inventario',
+                to: 'https://saldi.mx/inventario',
+              },
+              {
+                label: 'Saldi Facturacion',
+                to: 'https://saldi.mx/factura',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Recursos',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Blog',
+                href: 'https://monumental-narwhal-a4b971.netlify.app/blog',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Docs',
+                href: 'https://monumental-narwhal-a4b971.netlify.app/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Soporte',
             items: [
               {
                 label: 'Blog',
                 to: 'blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/saldimx/saldi_documentacion',
-              },
             ],
           },
           {
-            title: 'Legal',
+            title: 'Compañia',
             // Please do not remove the privacy and terms, it's a legal requirement.
             items: [
               {
-                label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
+                label: 'Conocenos',
+                href: 'https://saldi.mx/about',
               },
               {
-                label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
+                label: 'Trabajos',
+                href: 'https://saldi.mx/vacantes',
               },
               {
-                label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
-              },
-              {
-                label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
+                label: 'Terminos de uso',
+                href: 'https://saldi.mx/terminos',
               },
             ],
           },
         ],
-        logo: {
-          alt: 'Meta Open Source Logo',
+        //logo: {
+        //  alt: 'Meta Open Source Logo',
           // This default includes a positive & negative version, allowing for
           // appropriate use depending on your site's style.
-          src: '/img/meta_opensource_logo_negative.svg',
-          href: 'https://opensource.fb.com',
-        },
+        //  src: '/img/meta_opensource_logo_negative.svg',
+        //  href: 'https://opensource.fb.com',
+        //},
         // Please do not remove the credits, help to publicize Docusaurus :)
-        copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
+        copyright: `Saldi Co. ${new Date().getFullYear()} © Tu tienda en linea.`,
       },
     }),
 };
