@@ -70,7 +70,7 @@ export default function Home() {
     <Layout
       title={`Docs ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary-light', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
