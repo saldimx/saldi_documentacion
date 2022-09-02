@@ -17,22 +17,22 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Facil de Usar',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Saldi <code>docs</code> esta diseñado para que puedas crear tu tienda facil y rapido, 
+        accesa a tu panel y configurar sin problemas
+        tiendo una tienda en servicio rapido.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Enfocate en lo que necesitas',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Saldi <code>docs</code> te permite enfocarte en lo que necesites. Navega las paginas dependiendo en lo que necesites construir.
       </>
     ),
   },
@@ -68,7 +68,7 @@ export default function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Docs ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -80,8 +80,8 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('https://saldi.mx/')}>
-              Get Started
+              to={useBaseUrl('/docs/intro')}>
+              Comencemos!
             </Link>
           </div>
         </div>
